@@ -1,6 +1,6 @@
-pip install fake-useragent
-pip install pandas
-pip install python-docx
-pip install urllib3
-pip install beautifulsoup4
-pip install fake-useragent
+pip3 install fake-useragent
+pip3 install pandas
+pip3 install python-docx
+pip3 install urllib3
+pip3 install beautifulsoup4
+pip3 install fake-useragent
