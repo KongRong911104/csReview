@@ -1,2 +1,2 @@
 # csReview  
-請先sh test.sh
+請先sh .sh
