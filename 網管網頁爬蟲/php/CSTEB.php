@@ -41,7 +41,7 @@ if ($check == count($_FILES['my_file']['name'])) {
     $python_script = "python ../excel.py " . $fin_dest . " " . $year . " " . $semester;
     $result = json_decode(exec($python_script), true);
     unlink($first_dest);
-    print_r(gettype($result));
+    //print_r(gettype($result));
     if (gettype($result) == "array") {
         session_start();
         $_SESSION['file'] = 1;
@@ -51,7 +51,7 @@ if ($check == count($_FILES['my_file']['name'])) {
         print_r($result);
         echo'</h1>&nbsp;&nbsp;&nbsp;';
         echo "<button id='b' style='border-radius: 8px;padding: 7px 14px;background-color: rgba(238, 239, 239, 0.176);border: 2px solid #999393;' onclick='history.go(-1)'>回上一頁</button>";
-        print_r(gettype($result));
+        //print_r(gettype($result));
     }
 }
 else{
